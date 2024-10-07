@@ -1,0 +1,143 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+
+
+  width: 300px;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  margin-bottom: 20px;
+}
+
+.container>h1 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.container>form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+.container input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.namesignup {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+
+}
